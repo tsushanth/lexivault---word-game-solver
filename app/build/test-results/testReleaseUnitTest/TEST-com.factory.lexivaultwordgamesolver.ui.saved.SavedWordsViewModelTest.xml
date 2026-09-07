@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.lexivaultwordgamesolver.ui.saved.SavedWordsViewModelTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-07T05:19:39" hostname="Sushanths-Mac-mini.local" time="0.009">
+  <properties/>
+  <testcase name="hasReachedFreeLimit is true once a free user saves the limit" classname="com.factory.lexivaultwordgamesolver.ui.saved.SavedWordsViewModelTest" time="0.002"/>
+  <testcase name="filteredWords returns everything when the query is blank" classname="com.factory.lexivaultwordgamesolver.ui.saved.SavedWordsViewModelTest" time="0.0"/>
+  <testcase name="initial state is empty and not premium" classname="com.factory.lexivaultwordgamesolver.ui.saved.SavedWordsViewModelTest" time="0.001"/>
+  <testcase name="onScoringSystemChanged blocks Words With Friends scoring for free users" classname="com.factory.lexivaultwordgamesolver.ui.saved.SavedWordsViewModelTest" time="0.0"/>
+  <testcase name="hasReachedFreeLimit is always false for premium users" classname="com.factory.lexivaultwordgamesolver.ui.saved.SavedWordsViewModelTest" time="0.001"/>
+  <testcase name="onScoringSystemChanged allows Words With Friends scoring for premium users" classname="com.factory.lexivaultwordgamesolver.ui.saved.SavedWordsViewModelTest" time="0.001"/>
+  <testcase name="removeWord delegates to the repository" classname="com.factory.lexivaultwordgamesolver.ui.saved.SavedWordsViewModelTest" time="0.003"/>
+  <testcase name="saved words flow updates state" classname="com.factory.lexivaultwordgamesolver.ui.saved.SavedWordsViewModelTest" time="0.0"/>
+  <testcase name="filteredWords filters case-insensitively by the query" classname="com.factory.lexivaultwordgamesolver.ui.saved.SavedWordsViewModelTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

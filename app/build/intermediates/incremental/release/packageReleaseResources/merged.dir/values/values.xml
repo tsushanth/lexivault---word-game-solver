@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_background">#3B5998</color>
+    <string name="app_name">LexiVault</string>
+    <string name="tagline">Your word finder for tile games, word puzzles, and crosswords.</string>
+    <style name="Theme.LexiVault" parent="Theme.LexiVault.SplashScreen"/>
+    <style name="Theme.LexiVault.Main" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.LexiVault.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.LexiVault.Main</item>
+    </style>
+</resources>

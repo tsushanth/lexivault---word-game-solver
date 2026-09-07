@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.lexivaultwordgamesolver.billing.PremiumManagerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-07T05:19:30" hostname="Sushanths-Mac-mini.local" time="2.514">
+  <properties/>
+  <testcase name="isValidPurchase returns false when purchase is not in the PURCHASED state" classname="com.factory.lexivaultwordgamesolver.billing.PremiumManagerTest" time="2.403"/>
+  <testcase name="isValidPurchase returns true for a purchased item from this package" classname="com.factory.lexivaultwordgamesolver.billing.PremiumManagerTest" time="0.021"/>
+  <testcase name="isValidPurchase returns false when the package name does not match" classname="com.factory.lexivaultwordgamesolver.billing.PremiumManagerTest" time="0.011"/>
+  <testcase name="setPremiumStatus true without a product id leaves the previous product id untouched" classname="com.factory.lexivaultwordgamesolver.billing.PremiumManagerTest" time="0.03"/>
+  <testcase name="default state is not premium with no product id" classname="com.factory.lexivaultwordgamesolver.billing.PremiumManagerTest" time="0.012"/>
+  <testcase name="setPremiumStatus false clears premium flag and product id" classname="com.factory.lexivaultwordgamesolver.billing.PremiumManagerTest" time="0.013"/>
+  <testcase name="premium status persists across manager instances backed by the same context" classname="com.factory.lexivaultwordgamesolver.billing.PremiumManagerTest" time="0.012"/>
+  <testcase name="setPremiumStatus true persists premium flag and product id" classname="com.factory.lexivaultwordgamesolver.billing.PremiumManagerTest" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.2" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.factory.lexivaultwordgamesolver.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.intent.action.VIEW (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/factory/lexivaultwordgamesolver/ui/paywall/PaywallScreen.kt"
+                            line="312"
+                            column="27"
+                            startOffset="13139"
+                            endLine="312"
+                            endColumn="69"
+                            endOffset="13181"/>
+                        <location id="1"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/factory/lexivaultwordgamesolver/ui/settings/SettingsScreen.kt"
+                            line="162"
+                            column="27"
+                            startOffset="7110"
+                            endLine="162"
+                            endColumn="69"
+                            endOffset="7152"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.tagline"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="3"
+            column="13"
+            startOffset="71"
+            endLine="3"
+            endColumn="27"
+            endOffset="85"/>
+        <entry
+            name="model"
+            string="color[splash_background(U)],drawable[ic_launcher_background(U),ic_launcher_foreground(U)],mipmap[ic_launcher(U),ic_launcher_round(D)],string[app_name(U),tagline(D)],style[Theme_LexiVault(U),Theme_LexiVault_SplashScreen(U),Theme_SplashScreen(R),Theme_LexiVault_Main(U)],xml[data_extraction_rules(U),backup_rules(U)];3^1^2,4^1^2,7^8,8^9^0^2^a;;;"/>
+        <location id="R.mipmap.ic_launcher_round"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-hdpi/ic_launcher_round.png"/>
+    </map>
+
+</incidents>

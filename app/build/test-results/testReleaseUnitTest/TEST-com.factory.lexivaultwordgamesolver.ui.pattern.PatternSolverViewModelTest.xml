@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.lexivaultwordgamesolver.ui.pattern.PatternSolverViewModelTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-09-07T05:19:39" hostname="Sushanths-Mac-mini.local" time="0.013">
+  <properties/>
+  <testcase name="toggleSaved allows premium users past the free cap" classname="com.factory.lexivaultwordgamesolver.ui.pattern.PatternSolverViewModelTest" time="0.003"/>
+  <testcase name="onScoringSystemChanged allows Words With Friends for premium users" classname="com.factory.lexivaultwordgamesolver.ui.pattern.PatternSolverViewModelTest" time="0.0"/>
+  <testcase name="search does nothing for a blank pattern" classname="com.factory.lexivaultwordgamesolver.ui.pattern.PatternSolverViewModelTest" time="0.002"/>
+  <testcase name="visibleResults are capped for free users" classname="com.factory.lexivaultwordgamesolver.ui.pattern.PatternSolverViewModelTest" time="0.002"/>
+  <testcase name="initial state has sensible defaults" classname="com.factory.lexivaultwordgamesolver.ui.pattern.PatternSolverViewModelTest" time="0.0"/>
+  <testcase name="toggleSaved refuses new saves once a free user hits the cap" classname="com.factory.lexivaultwordgamesolver.ui.pattern.PatternSolverViewModelTest" time="0.001"/>
+  <testcase name="onPatternChanged filters non letters and truncates to 15" classname="com.factory.lexivaultwordgamesolver.ui.pattern.PatternSolverViewModelTest" time="0.0"/>
+  <testcase name="search surfaces a friendly error on failure" classname="com.factory.lexivaultwordgamesolver.ui.pattern.PatternSolverViewModelTest" time="0.002"/>
+  <testcase name="onScoringSystemChanged blocks Words With Friends for free users" classname="com.factory.lexivaultwordgamesolver.ui.pattern.PatternSolverViewModelTest" time="0.0"/>
+  <testcase name="search populates results sorted by score then alphabetically" classname="com.factory.lexivaultwordgamesolver.ui.pattern.PatternSolverViewModelTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

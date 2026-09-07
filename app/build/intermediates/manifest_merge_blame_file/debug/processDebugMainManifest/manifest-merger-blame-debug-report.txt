@@ -1,0 +1,236 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.factory.lexivaultwordgamesolver"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="com.android.vending.BILLING" />
+11-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <queries>
+13-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5e48e44284c7f0433dd7b57e023c11f5/transformed/billing-6.1.0/AndroidManifest.xml:12:5-16:15
+14        <intent>
+14-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5e48e44284c7f0433dd7b57e023c11f5/transformed/billing-6.1.0/AndroidManifest.xml:13:9-15:18
+15            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+15-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5e48e44284c7f0433dd7b57e023c11f5/transformed/billing-6.1.0/AndroidManifest.xml:14:13-91
+15-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5e48e44284c7f0433dd7b57e023c11f5/transformed/billing-6.1.0/AndroidManifest.xml:14:21-88
+16        </intent>
+17    </queries>
+18
+19    <permission
+19-->[androidx.core:core:1.13.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e91d43edd169d12026c8450ba62b92db/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+20        android:name="com.factory.lexivaultwordgamesolver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.13.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e91d43edd169d12026c8450ba62b92db/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.13.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e91d43edd169d12026c8450ba62b92db/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.factory.lexivaultwordgamesolver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+23-->[androidx.core:core:1.13.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e91d43edd169d12026c8450ba62b92db/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.13.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e91d43edd169d12026c8450ba62b92db/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+24    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f2fcd2e5c212ee91f964c44151de2fe8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+25-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f2fcd2e5c212ee91f964c44151de2fe8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:24:22-76
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f2fcd2e5c212ee91f964c44151de2fe8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+26-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f2fcd2e5c212ee91f964c44151de2fe8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:25:22-64
+27
+28    <application
+28-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:6:5-25:19
+29        android:name="com.factory.lexivaultwordgamesolver.LexiVaultApplication"
+29-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:7:9-45
+30        android:allowBackup="true"
+30-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:8:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.13.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/e91d43edd169d12026c8450ba62b92db/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+32        android:dataExtractionRules="@xml/data_extraction_rules"
+32-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:9:9-65
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:fullBackupContent="@xml/backup_rules"
+35-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:10:9-54
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:11:9-43
+37        android:label="@string/app_name"
+37-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:12:9-41
+38        android:roundIcon="@mipmap/ic_launcher"
+38-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:13:9-48
+39        android:supportsRtl="true"
+39-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:14:9-35
+40        android:theme="@style/Theme.LexiVault" >
+40-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:15:9-47
+41        <activity
+41-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:16:9-24:20
+42            android:name="com.factory.lexivaultwordgamesolver.MainActivity"
+42-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:17:13-41
+43            android:exported="true"
+43-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:18:13-36
+44            android:theme="@style/Theme.LexiVault" >
+44-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:19:13-51
+45            <intent-filter>
+45-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:20:13-23:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:21:17-69
+46-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:21:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:22:17-77
+48-->/Users/sushanthtiruvaipati/Documents/AndroidApps/LexiVault — Word Game Solver/app/src/main/AndroidManifest.xml:22:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <meta-data
+52-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5e48e44284c7f0433dd7b57e023c11f5/transformed/billing-6.1.0/AndroidManifest.xml:19:9-21:37
+53            android:name="com.google.android.play.billingclient.version"
+53-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5e48e44284c7f0433dd7b57e023c11f5/transformed/billing-6.1.0/AndroidManifest.xml:20:13-73
+54            android:value="6.1.0" />
+54-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5e48e44284c7f0433dd7b57e023c11f5/transformed/billing-6.1.0/AndroidManifest.xml:21:13-34
+55
+56        <activity
+56-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5e48e44284c7f0433dd7b57e023c11f5/transformed/billing-6.1.0/AndroidManifest.xml:23:9-27:75
+57            android:name="com.android.billingclient.api.ProxyBillingActivity"
+57-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5e48e44284c7f0433dd7b57e023c11f5/transformed/billing-6.1.0/AndroidManifest.xml:24:13-78
+58            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+58-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5e48e44284c7f0433dd7b57e023c11f5/transformed/billing-6.1.0/AndroidManifest.xml:25:13-96
+59            android:exported="false"
+59-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5e48e44284c7f0433dd7b57e023c11f5/transformed/billing-6.1.0/AndroidManifest.xml:26:13-37
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.android.billingclient:billing:6.1.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5e48e44284c7f0433dd7b57e023c11f5/transformed/billing-6.1.0/AndroidManifest.xml:27:13-72
+61        <activity
+61-->[androidx.compose.ui:ui-test-manifest:1.6.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/079368b00ef17a6e21ab67cabcd60e45/transformed/ui-test-manifest-1.6.8/AndroidManifest.xml:23:9-25:39
+62            android:name="androidx.activity.ComponentActivity"
+62-->[androidx.compose.ui:ui-test-manifest:1.6.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/079368b00ef17a6e21ab67cabcd60e45/transformed/ui-test-manifest-1.6.8/AndroidManifest.xml:24:13-63
+63            android:exported="true" />
+63-->[androidx.compose.ui:ui-test-manifest:1.6.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/079368b00ef17a6e21ab67cabcd60e45/transformed/ui-test-manifest-1.6.8/AndroidManifest.xml:25:13-36
+64        <activity
+64-->[androidx.compose.ui:ui-tooling-android:1.6.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6eeb287f86f81a3982838f69de2024a5/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+65            android:name="androidx.compose.ui.tooling.PreviewActivity"
+65-->[androidx.compose.ui:ui-tooling-android:1.6.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6eeb287f86f81a3982838f69de2024a5/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+66            android:exported="true" />
+66-->[androidx.compose.ui:ui-tooling-android:1.6.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6eeb287f86f81a3982838f69de2024a5/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+67        <activity
+67-->[com.google.android.gms:play-services-base:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6f969dc993528889b3aee9903b8ef2ff/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6f969dc993528889b3aee9903b8ef2ff/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6f969dc993528889b3aee9903b8ef2ff/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/6f969dc993528889b3aee9903b8ef2ff/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5765abb7e529f07b3bead3d049280115/transformed/play-services-basement-18.0.1/AndroidManifest.xml:21:9-23:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5765abb7e529f07b3bead3d049280115/transformed/play-services-basement-18.0.1/AndroidManifest.xml:22:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:18.0.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/5765abb7e529f07b3bead3d049280115/transformed/play-services-basement-18.0.1/AndroidManifest.xml:23:13-66
+75
+76        <provider
+76-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/8d265db809aefe6ba535572b60a1cbcb/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+77            android:name="androidx.startup.InitializationProvider"
+77-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/8d265db809aefe6ba535572b60a1cbcb/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+78            android:authorities="com.factory.lexivaultwordgamesolver.androidx-startup"
+78-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/8d265db809aefe6ba535572b60a1cbcb/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+79            android:exported="false" >
+79-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/8d265db809aefe6ba535572b60a1cbcb/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+80            <meta-data
+80-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/8d265db809aefe6ba535572b60a1cbcb/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+81-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/8d265db809aefe6ba535572b60a1cbcb/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+82                android:value="androidx.startup" />
+82-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/8d265db809aefe6ba535572b60a1cbcb/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/30b56e77498c803a46ee474377bf4619/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/30b56e77498c803a46ee474377bf4619/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:30:17-78
+85                android:value="androidx.startup" />
+85-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/30b56e77498c803a46ee474377bf4619/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+88                android:value="androidx.startup" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+89        </provider>
+90
+91        <service
+91-->[androidx.room:room-runtime:2.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/3491be084682f777f2359a2bc8e00d91/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+92            android:name="androidx.room.MultiInstanceInvalidationService"
+92-->[androidx.room:room-runtime:2.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/3491be084682f777f2359a2bc8e00d91/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+93            android:directBootAware="true"
+93-->[androidx.room:room-runtime:2.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/3491be084682f777f2359a2bc8e00d91/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+94            android:exported="false" />
+94-->[androidx.room:room-runtime:2.6.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/3491be084682f777f2359a2bc8e00d91/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+95        <service
+95-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f2fcd2e5c212ee91f964c44151de2fe8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+96            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+96-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f2fcd2e5c212ee91f964c44151de2fe8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+97            android:exported="false" >
+97-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f2fcd2e5c212ee91f964c44151de2fe8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+98            <meta-data
+98-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f2fcd2e5c212ee91f964c44151de2fe8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+99                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+99-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f2fcd2e5c212ee91f964c44151de2fe8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+100                android:value="cct" />
+100-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/f2fcd2e5c212ee91f964c44151de2fe8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+101        </service>
+102        <service
+102-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/34beb1d15d49e5bc05e6f74045593d45/transformed/transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+103            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+103-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/34beb1d15d49e5bc05e6f74045593d45/transformed/transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+104            android:exported="false"
+104-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/34beb1d15d49e5bc05e6f74045593d45/transformed/transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+105            android:permission="android.permission.BIND_JOB_SERVICE" >
+105-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/34beb1d15d49e5bc05e6f74045593d45/transformed/transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+106        </service>
+107
+108        <receiver
+108-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/34beb1d15d49e5bc05e6f74045593d45/transformed/transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+109            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+109-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/34beb1d15d49e5bc05e6f74045593d45/transformed/transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+110            android:exported="false" />
+110-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/34beb1d15d49e5bc05e6f74045593d45/transformed/transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+111        <receiver
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+112            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+113            android:directBootAware="false"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+114            android:enabled="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+115            android:exported="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+116            android:permission="android.permission.DUMP" >
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+118                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+121                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+124                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+127                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/transforms-4/16e301cf918698b0162b7c845acd09ac/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+128            </intent-filter>
+129        </receiver>
+130    </application>
+131
+132</manifest>

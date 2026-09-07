@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.lexivaultwordgamesolver.ui.paywall.PaywallViewModelTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-09-07T05:19:39" hostname="Sushanths-Mac-mini.local" time="0.081">
+  <properties/>
+  <testcase name="a Cancelled event clears purchaseInProgress without posting a message" classname="com.factory.lexivaultwordgamesolver.ui.paywall.PaywallViewModelTest" time="0.058"/>
+  <testcase name="SupportPurchaseThanks thanks the user" classname="com.factory.lexivaultwordgamesolver.ui.paywall.PaywallViewModelTest" time="0.006"/>
+  <testcase name="restorePurchases delegates to the billing manager and clears the restoring flag" classname="com.factory.lexivaultwordgamesolver.ui.paywall.PaywallViewModelTest" time="0.002"/>
+  <testcase name="an Error event posts its message verbatim" classname="com.factory.lexivaultwordgamesolver.ui.paywall.PaywallViewModelTest" time="0.002"/>
+  <testcase name="a Success event clears purchaseInProgress and posts a message" classname="com.factory.lexivaultwordgamesolver.ui.paywall.PaywallViewModelTest" time="0.003"/>
+  <testcase name="state reflects connection state changes" classname="com.factory.lexivaultwordgamesolver.ui.paywall.PaywallViewModelTest" time="0.001"/>
+  <testcase name="initial state mirrors connection, catalog and premium flows" classname="com.factory.lexivaultwordgamesolver.ui.paywall.PaywallViewModelTest" time="0.001"/>
+  <testcase name="initializing the view model starts the billing connection" classname="com.factory.lexivaultwordgamesolver.ui.paywall.PaywallViewModelTest" time="0.002"/>
+  <testcase name="state reflects the product catalog" classname="com.factory.lexivaultwordgamesolver.ui.paywall.PaywallViewModelTest" time="0.001"/>
+  <testcase name="purchase marks the tier as in progress and launches the purchase flow" classname="com.factory.lexivaultwordgamesolver.ui.paywall.PaywallViewModelTest" time="0.002"/>
+  <testcase name="AlreadyOwned suggests restoring purchases" classname="com.factory.lexivaultwordgamesolver.ui.paywall.PaywallViewModelTest" time="0.002"/>
+  <testcase name="purchaseSupport launches the support purchase flow" classname="com.factory.lexivaultwordgamesolver.ui.paywall.PaywallViewModelTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

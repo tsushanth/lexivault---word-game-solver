@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2026-09-07T05:19:27" hostname="Sushanths-Mac-mini.local" time="2.264">
+  <properties/>
+  <testcase name="startConnection reports NetworkUnavailable and schedules a reconnect on network errors" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="1.103"/>
+  <testcase name="queryAvailableProducts leaves the catalog untouched when the query fails" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.044"/>
+  <testcase name="restorePurchases syncs premium status and emits RestoreFinished for an active subscription" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.17"/>
+  <testcase name="restorePurchases ignores purchases that fail validation" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.037"/>
+  <testcase name="restorePurchases reports no active purchases when nothing is found" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.031"/>
+  <testcase name="onPurchasesUpdated emits Pending for a pending purchase" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.028"/>
+  <testcase name="launchPurchaseFlow emits an error when Play billing rejects the flow" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.363"/>
+  <testcase name="onPurchasesUpdated rejects a purchase that fails validation and does not grant premium" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.029"/>
+  <testcase name="endConnection delegates to the underlying billing client" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.021"/>
+  <testcase name="onPurchasesUpdated emits AlreadyOwned" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.022"/>
+  <testcase name="queryAvailableProducts stores returned product details keyed by product id" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.026"/>
+  <testcase name="onPurchasesUpdated consumes and thanks the user for a support purchase without granting premium" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.046"/>
+  <testcase name="startConnection reports BillingUnavailable when Play billing is unsupported" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.023"/>
+  <testcase name="startConnection refreshes the catalog and purchases once billing setup succeeds" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.029"/>
+  <testcase name="startConnection moves directly to Connected when the client is already ready" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.021"/>
+  <testcase name="onPurchasesUpdated emits an Error for other failures" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.022"/>
+  <testcase name="restorePurchases fails fast when there is no connection to Play" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.025"/>
+  <testcase name="onPurchasesUpdated grants premium and emits Success for a purchased subscription" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.033"/>
+  <testcase name="launchPurchaseFlow emits an error when product details have not loaded yet" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.023"/>
+  <testcase name="onPurchasesUpdated does not re-acknowledge an already acknowledged purchase" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.024"/>
+  <testcase name="onPurchasesUpdated emits Cancelled when the user backs out" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.022"/>
+  <testcase name="restorePurchases consumes a leftover support purchase without granting premium" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.029"/>
+  <testcase name="launchPurchaseFlow starts the Play billing flow once product details are known" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.066"/>
+  <testcase name="onBillingServiceDisconnected marks the client Disconnected" classname="com.factory.lexivaultwordgamesolver.billing.BillingManagerTest" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

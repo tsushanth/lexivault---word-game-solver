@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.lexivaultwordgamesolver.data.WordRepositoryTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-09-07T05:19:32" hostname="Sushanths-Mac-mini.local" time="0.124">
+  <properties/>
+  <testcase name="toggleSaved removes a word that is already saved" classname="com.factory.lexivaultwordgamesolver.data.WordRepositoryTest" time="0.047"/>
+  <testcase name="findWordsFromPattern returns words matching the pattern" classname="com.factory.lexivaultwordgamesolver.data.WordRepositoryTest" time="0.041"/>
+  <testcase name="observeSavedWordSet maps entities down to a set of words" classname="com.factory.lexivaultwordgamesolver.data.WordRepositoryTest" time="0.021"/>
+  <testcase name="findWordsFromLetters returns words the rack can build" classname="com.factory.lexivaultwordgamesolver.data.WordRepositoryTest" time="0.003"/>
+  <testcase name="saveWord inserts an entity with computed scores" classname="com.factory.lexivaultwordgamesolver.data.WordRepositoryTest" time="0.002"/>
+  <testcase name="removeWord deletes by word" classname="com.factory.lexivaultwordgamesolver.data.WordRepositoryTest" time="0.002"/>
+  <testcase name="toggleSaved normalizes casing before checking and saving" classname="com.factory.lexivaultwordgamesolver.data.WordRepositoryTest" time="0.002"/>
+  <testcase name="toggleSaved saves a word that is not yet saved" classname="com.factory.lexivaultwordgamesolver.data.WordRepositoryTest" time="0.001"/>
+  <testcase name="removeSavedWord deletes the given entity" classname="com.factory.lexivaultwordgamesolver.data.WordRepositoryTest" time="0.001"/>
+  <testcase name="observeSavedWords delegates directly to the dao" classname="com.factory.lexivaultwordgamesolver.data.WordRepositoryTest" time="0.001"/>
+  <testcase name="findWordsFromLetters propagates a dictionary load failure" classname="com.factory.lexivaultwordgamesolver.data.WordRepositoryTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

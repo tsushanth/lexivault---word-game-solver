@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2026-09-07T05:19:33" hostname="Sushanths-Mac-mini.local" time="0.063">
+  <properties/>
+  <testcase name="onRackChanged truncates to 20 characters" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.035"/>
+  <testcase name="toggleSaved allows premium users past the free cap" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.003"/>
+  <testcase name="onSortOrderChanged is ignored for free users unless SCORE_DESC" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.001"/>
+  <testcase name="onScoringSystemChanged blocks Words With Friends scoring for free users" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.0"/>
+  <testcase name="toggleSaved refuses to save more words once a free user hits the cap" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.002"/>
+  <testcase name="onStartsWithChanged applies for premium users" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.0"/>
+  <testcase name="visibleResults are capped for free users" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.004"/>
+  <testcase name="visibleResults are unrestricted for premium users" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.001"/>
+  <testcase name="sort order ALPHABETICAL sorts results a to z for premium users" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.002"/>
+  <testcase name="onScoringSystemChanged allows Words With Friends scoring for premium users" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.001"/>
+  <testcase name="initial state has sensible defaults" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.001"/>
+  <testcase name="search surfaces a friendly error when the repository throws" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.001"/>
+  <testcase name="onStartsWithChanged is ignored for free users" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.0"/>
+  <testcase name="premium flow updates isPremium in state" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.001"/>
+  <testcase name="toggleSaved allows removing an already saved word even at the cap" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.002"/>
+  <testcase name="search does nothing when the rack is blank" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.001"/>
+  <testcase name="search populates sorted results on success" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.002"/>
+  <testcase name="saved words flow updates savedWords in state" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.001"/>
+  <testcase name="onRackChanged strips non letters and blanks but keeps question marks" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.001"/>
+  <testcase name="search builds filters from current state" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.002"/>
+  <testcase name="sort order LENGTH_DESC sorts longest words first for premium users" classname="com.factory.lexivaultwordgamesolver.ui.finder.WordFinderViewModelTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

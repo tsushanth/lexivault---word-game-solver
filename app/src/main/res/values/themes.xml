@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.LexiVault" parent="Theme.LexiVault.SplashScreen" />
+
+    <style name="Theme.LexiVault.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.LexiVault.Main</item>
+    </style>
+
+    <style name="Theme.LexiVault.Main" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

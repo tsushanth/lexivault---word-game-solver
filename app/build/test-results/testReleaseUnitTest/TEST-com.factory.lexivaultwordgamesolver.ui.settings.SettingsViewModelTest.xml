@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.lexivaultwordgamesolver.ui.settings.SettingsViewModelTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-07T05:19:39" hostname="Sushanths-Mac-mini.local" time="0.015">
+  <properties/>
+  <testcase name="initial state is not premium with no tier and not restoring" classname="com.factory.lexivaultwordgamesolver.ui.settings.SettingsViewModelTest" time="0.004"/>
+  <testcase name="restorePurchases delegates to the billing manager and clears the restoring flag" classname="com.factory.lexivaultwordgamesolver.ui.settings.SettingsViewModelTest" time="0.002"/>
+  <testcase name="isManageableSubscription is true for an active recurring subscription" classname="com.factory.lexivaultwordgamesolver.ui.settings.SettingsViewModelTest" time="0.001"/>
+  <testcase name="RestoreFinished without premium posts a not-found message" classname="com.factory.lexivaultwordgamesolver.ui.settings.SettingsViewModelTest" time="0.002"/>
+  <testcase name="Error events are surfaced verbatim as messages" classname="com.factory.lexivaultwordgamesolver.ui.settings.SettingsViewModelTest" time="0.001"/>
+  <testcase name="RestoreFinished with premium posts a success message" classname="com.factory.lexivaultwordgamesolver.ui.settings.SettingsViewModelTest" time="0.002"/>
+  <testcase name="isManageableSubscription is false for a lifetime purchase" classname="com.factory.lexivaultwordgamesolver.ui.settings.SettingsViewModelTest" time="0.001"/>
+  <testcase name="premium flow updates isPremium and premiumTier together" classname="com.factory.lexivaultwordgamesolver.ui.settings.SettingsViewModelTest" time="0.001"/>
+  <testcase name="unrelated purchase events do not post a message" classname="com.factory.lexivaultwordgamesolver.ui.settings.SettingsViewModelTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

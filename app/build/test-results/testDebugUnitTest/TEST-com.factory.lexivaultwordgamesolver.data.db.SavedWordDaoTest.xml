@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.lexivaultwordgamesolver.data.db.SavedWordDaoTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-07T05:19:32" hostname="Sushanths-Mac-mini.local" time="0.715">
+  <properties/>
+  <testcase name="isSaved returns true only for a persisted word" classname="com.factory.lexivaultwordgamesolver.data.db.SavedWordDaoTest" time="0.583"/>
+  <testcase name="observeAll orders results by savedAt descending" classname="com.factory.lexivaultwordgamesolver.data.db.SavedWordDaoTest" time="0.019"/>
+  <testcase name="observeSavedWords returns just the word column" classname="com.factory.lexivaultwordgamesolver.data.db.SavedWordDaoTest" time="0.033"/>
+  <testcase name="insert ignores a row whose primary key already exists" classname="com.factory.lexivaultwordgamesolver.data.db.SavedWordDaoTest" time="0.021"/>
+  <testcase name="insert does not dedupe by word since only the auto-generated id is a primary key" classname="com.factory.lexivaultwordgamesolver.data.db.SavedWordDaoTest" time="0.014"/>
+  <testcase name="delete does not affect other rows" classname="com.factory.lexivaultwordgamesolver.data.db.SavedWordDaoTest" time="0.013"/>
+  <testcase name="insert then observeAll returns the inserted word" classname="com.factory.lexivaultwordgamesolver.data.db.SavedWordDaoTest" time="0.011"/>
+  <testcase name="deleteByWord removes the matching row" classname="com.factory.lexivaultwordgamesolver.data.db.SavedWordDaoTest" time="0.01"/>
+  <testcase name="delete removes the exact entity" classname="com.factory.lexivaultwordgamesolver.data.db.SavedWordDaoTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
